@@ -12,7 +12,7 @@
 }
 #header, #footer{
 	width: 100%;
-	background-color: #DE5254;
+
 
 } 
 #header {
@@ -21,13 +21,25 @@
 #logo{
 	height: inherit;
 	width: 110px;
-/*	background-image: url(img/web-design.png);
+	background-image: url("img/codefactory-logo.png");
 	background-size: 110px 110px;
-	background-position: 0px 0px;*/
+	background-position: 0px 0px;
 	float: left;
+
 }
+/*---------------------Logo Transition---------------------*/
+#logo>img {
+    transition:transform 2s;
+    }
+
+ #logo>img:hover {
+/*        transform: scale(2);*/
+        transform: translate(800px, 0px);
+        z-index: 1;
+    }
 #headline{
 	float: left;
+	margin-left:15px;
 	padding: 15px 0 15px 30px;
 	font-weight: bold;
 }
@@ -112,6 +124,7 @@ li a{
 }
 #footer{
 	height:90px;
+	background-color: #DE5254;
 	margin-top: 30px;
 	text-align: center;
 	font-size: 1.5em;

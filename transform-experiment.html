@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    #content {
+        width: 100%;
+        margin: 0;
+        background-color: #fff;
+    }
+
+    div {
+        width: 250px;
+        height: 250px;
+        margin: 20px;
+        text-align: center;
+        background-color: yellow;
+        padding: 10px;
+    }
+
+    em {
+        font-size: 1.2em;
+    }
+
+    #header {
+        width: 100%;
+        height: 100px;
+        margin: 0;
+        font-size: 3em;
+        padding-top: 40px;
+        background-color: #333;
+        color: white;
+    }
+  	.effect {
+  		display: flex;
+  		margin: 0;
+    	background-color: white;
+    }
+    .effect-{
+   		width: 250px;
+    }
+    .description {
+    	width: 250px;
+		background-color: #ccc;
+    }
+    
+    /*--------------------------translate------------------------*/
+
+    #translate {
+        transition: transform 2s;
+    }
+
+    #translate:hover {
+        transform: translate(500px, 0px);
+    }
+    /*--------------------------scale------------------------*/
+
+    #scale {
+        transition: transform 2s;
+    }
+
+    #scale:hover {
+        transform: scale(1, 5);
+    }
+    /*--------------------------Rotate------------------------*/
+
+    #rotate {
+        -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+        /* Safari */
+        transition: width 2s, height 2s, transform 2s;
+    }
+
+    #rotate:hover {
+        width: 500px;
+        height: 500px;
+        -webkit-transform: rotate(180deg);
+        /* Safari */
+        transform: rotate(90deg);
+    }
+    /*--------------------------change-color------------------------*/
+
+    #change-color {
+        transition: background-color 0.5s ease;
+    }
+
+    #change-color:hover {
+        background-color: green;
+    }
+    /*--------------------------skew------------------------*/
+
+    #skew {
+        transition: transform 2s;
+    }
+
+    #skew:hover {
+        transform: skew(90deg, 50deg);
+    }
+    /*--------------------------matrix------------------------*/
+
+    #matrix {
+        transition: transform 2s;
+    }
+
+    #matrix:hover {
+        transform: matrix(1, -0.3, 0, 1, 0, 0);
+    }
+    </style>
+</head>
+<div id="header">transform tryings</div>
+<div id="content">
+    <div class="effect">
+    	<div class="effect-"id="translate"></div>
+        <div class="description">
+            <em>translate()</em>
+            <br> moves an element from its current position, given parameters for the x-axis and y-acis
+        </div>
+    </div>
+   <!--  <div id="scale"><em>scale()</em>
+        <br>brincreases/ decreases the size of an element, values are for the width and height as multipliers one value is for both</div>
+    <div id="rotate"><em>rotate(...deg)</em>
+        <br> Rotate about the degrees inside the brakets</div>
+    <div id="change-color"><em>transition: attribute:value</em>Change the color</div>
+    <div id="skew"><em>skew(...deg, ...deg)</em>
+        <br> skew()receives degrees for x and Y
+        <br>skewX() receives one degree for X-axis
+        <br>skewY() receives one degree for the Y-axis skews an element along the X-axis by the given angle simliar to rotate but the shape of the box change</div>
+    <div id="matrix"><em>matrix()</em>
+        <br> The matrix() method combines all the 2D transform methods into one. The matrix() method take six parameters, containing mathematic functions, which allows you to rotate, scale, move (translate), and skew elements. The parameters are as follow: matrix(scaleX(),skewY(),skewX(), scaleY(),translateX(),translateY())
+    </div> -->
+</div>
+
+<body>
+</body>
+
+</html>
