@@ -1,25 +1,15 @@
     * {
         margin: 0;
         padding: 0;
+        font-family: 'Tajawal', sans-serif;
     }
-
+    a {
+        text-decoration: none;
+        color: black;
+    }
     #content {
         width: 100%;
-        margin: 0;
         background-color: #fff;
-    }
-
-    div {
-        width: 250px;
-        height: 250px;
-        margin: 20px;
-        text-align: center;
-        background-color: yellow;
-        padding: 10px;
-    }
-
-    em {
-        font-size: 1.2em;
     }
 
     #header {
@@ -30,20 +20,58 @@
         padding-top: 40px;
         background-color: #333;
         color: white;
+        padding-left: 30px;
     }
-  	.effect {
-  		display: flex;
-  		margin: 0;
-    	background-color: white;
+    .column{
+        width: 100%;
+
+        margin-top: 20px;
+        margin-left: 20px;
+/*        height: 270px;*/
+        display: flex;
+
     }
-    .effect-{
-   		width: 250px;
+    .effect, .description{
+        margin:20px;
     }
-    .description {
-    	width: 250px;
-		background-color: #ccc;
+    .effect {
+        width: 250px;
+        height: 250px;
+        background-color: #00adac;
     }
-    
+    .description{
+        height: 220px;
+        float: left;
+        width: 70%;
+        background-color: #f8a51b;
+        padding: 15px;
+        border: 2px solid #333;
+        border-radius: 50px 20px;
+        box-shadow: 5px 5px 5px #333;
+
+    }
+    .description-content{
+
+        width: 100%;
+        height:70%;
+    }
+    .description-content em{
+        font-size: 2.3em;
+        padding-bottom: 15px;
+    }
+
+    .description-link{
+        text-align: center;
+        width: 100%;
+        height:30%;
+
+    }
+    .description-link>a{
+        border: 2px solid #333;
+        padding: 10px;
+        border-radius: 50px 20px;
+
+    }
     /*--------------------------translate------------------------*/
 
     #translate {
@@ -51,8 +79,9 @@
     }
 
     #translate:hover {
-        transform: translate(500px, 0px);
+        transform: translate(-100px, 0px);
     }
+
     /*--------------------------scale------------------------*/
 
     #scale {
@@ -102,5 +131,5 @@
     }
 
     #matrix:hover {
-        transform: matrix(1, -0.3, 0, 1, 0, 0);
+        transform: matrix(1, -0.3, 10, 1, 0, 0);
     }
