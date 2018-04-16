@@ -6,3 +6,70 @@ hr{
  height: 2vh;
  background-color:  black;
 }
+
+.middle{
+ height: 0.3em;
+}
+
+.small{
+ height: 1px;	
+}
+
+ul{
+ display: inline;	
+}
+
+ul li{
+   float: left;
+   list-style-type:  none;
+   padding-left: 1em;	
+}
+
+.grey{
+ height: 1px;
+ background-color:  grey;	
+}
+
+#ingredients{
+  margin: 10vh;	
+  width: 30vw;
+  border:  1px black solid;	
+}
+
+
+.tight{
+ line-height: 1em;
+ margin: 0px;	
+}
+
+.part{
+ width:  19%;	
+}
+.part2{
+ width: 60%;	
+}
+
+.eline{
+ width: 95%;
+ display:  flex;
+ justify-content: flex-start;
+}
+
+
+
+.smallfont{
+ font-size: 0.6em;	
+}
+
+.mediumfont{
+ font-size:  0.8em;	
+}
+
+.incomplete{
+ width:  90%;	
+ margin-left: 9%;
+}
+
+.underline{
+ text-decoration: underline;	
+}
