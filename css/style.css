@@ -33,7 +33,6 @@
     }
 
  #logo>img:hover {
-/*        transform: scale(2);*/
         transform: translate(800px, 0px);
         z-index: 1;
     }
@@ -66,7 +65,7 @@ ul li{
 
 
 }
-li a{
+a{
 	text-decoration: none;
 	color:#eee;
 	font-size: 1.5em;
@@ -87,6 +86,11 @@ li a{
 	padding: 20px;
 	margin-top:15px;
 	box-shadow: 8px 8px 15px grey;
+	background: linear-gradient(to bottom right, #421819,  #BE9063);
+}
+.topic-right {
+	background: linear-gradient(to top left, #421819,  #BE9063);
+	text-align: right;
 }
 .link {
 	width: inherit;
@@ -95,36 +99,11 @@ li a{
 #content h2{
 	font-size: 2em;
 }
-#content a{
-	text-decoration: none;
-	font-size: 1.3em;
-	color: #eee;
-}
-#html-css-js {
-	background-color: #BE9063;
-}
-#shortcuts{
-	text-align: right;
-	background-color: #525B56;
-}
-#validating {
-	background-color: #BE9063;
-}
-#design {
-	text-align: right;
-	background-color: #525B56;
-}
-#special{
-	text-align: left;
-	background-color:#BE9063;
-}
-#general {
-	text-align: right;
-	background-color: #525B56;
-}
+
 #footer{
+	color: white;
 	height:90px;
-	background-color: #DE5254;
+	background-color: #421819;
 	margin-top: 30px;
 	text-align: center;
 	font-size: 1.5em;
