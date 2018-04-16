@@ -1,0 +1,126 @@
+<html>
+<title>Simulation of the Vogler Analog Computer</title>
+<link rel="stylesheet" href="vogler.css" />
+<script src="jquery.min.js" type="text/javascript"></script>
+
+<body>
+    <div id="menue">
+        <button id="demo">Demo</button>&emsp;
+        <button id="help">Help</button>&emsp;</div>
+    <br></br>
+    <div id="wholeFront">
+    <div id="upperPart">
+        <div id="screen">
+            <canvas id="oscilloscope"></canvas>
+        </div>
+        <div id="potinput">
+            K1
+            <input id="k1in" text=""></input>K2
+            <input id="k2in" text=""></input>
+            <br></br>
+            K3
+            <input id="k3in" text=""></input>K4
+            <input id="k4in" text=""></input>
+            <br></br>
+        </div>
+        <div id="restpanel">
+            on/off
+            <button id="onoff">-</button>
+            <br></br>
+            reset
+            <button id="reset">-</button>
+            <br></br>
+            intgr.
+            <button id="intmode">HOLD</button>
+            <br></br>
+            addr.
+            <button id="aselect">K1</button>
+            <br></br>
+        </div>
+        <br></br>
+        
+    </div>
+    <div id="lowerPart">
+    	<div id="kpanel">
+    		
+    		<div id="kpanelRow1">
+            <button id="k1y" class="multm">K1</button>
+            <button id="k2y" class="multm">K2</button>
+            <button id="k3y" class="multm">K3</button>
+            <button id="k4y" class="multm">K4</button>
+            </div>
+            <div id="kpanelRow2">
+            <button id="k1U" class="red">K1</button>
+            <button id="k2U" class="red">K2</button>
+            <button id="k3U" class="red">K3</button>
+            <button id="k4U" class="red">K4</button>
+            </div>
+            <div id="kpanelRow3">
+            <button id="k1D" class="red">K1</button>
+            <button id="k2D" class="red">K2</button>
+            <button id="k3D" class="red">K3</button>
+            <button id="k4D" class="red">K4</button>
+            </div>
+            <br></br>
+        </div>
+        <div id="panel">
+            <button id="gndm1" class="blue">-1&nbsp;</button>
+            <button id="gndm2" class="blue">-1</button>
+            <button id="gnd">GN</button>
+            <button id="gndp1" class="red">+1&nbsp;</button>
+            <button id="gndp2" class="red">+1</button>
+            <button id="k34" class="grey">KK</button>
+            <button id="ext" class="grey">EX</button>
+            <button id="vx" class="grey">/\/</button>
+            <br></br>
+            <button id="int1ic" class="ic">1C</button>
+            <button id="int2ic" class="ic">1C</button>
+            <button id="sum1p10" class="sump10">10</button>
+            <button id="sum2p10" class="sump10">10</button>
+            <button id="sum3p10" class="sump10">10</button>
+            <button id="opiSP">SP</button>
+            <button id="multX1" class="multm">X1</button>
+            <button id="multZ1" class="multm">Z1</button>
+            <br></br>
+            <button id="int1p10" class="sump10">10</button>
+            <button id="int2p10" class="sump10">10</button>
+            <button id="sum1p1" class="multm">01</button>
+            <button id="sum2p1" class="multm">01 </button>
+            <button id="sum3p1" class="multm">01 </button>
+            <button id="opip1" class="multm">01 </button>
+            <button id="multY1" class="multm">Y1 </button>
+            <button id="multZ2" class="multm">Z2 </button>
+            <br></br>
+            <button id="int1p1" class="multm">01 </button>
+            <button id="int2p1" class="multm">01 </button>
+            <button id="sum1pp1" class="multm">01</button>
+            <button id="sum2pp1" class="multm">01 </button>
+            <button id="sum3pp1" class="multm">01 </button>
+            <button id="opipp1" class="multm">01 </button>
+            <button id="multY2" class="multm">Y2 </button>
+            <button id="sinp1" class="multm">SN</button>
+            <br></br>
+            <button id="int1U" class="red">IN</button>
+            <button id="int2U" class="red">iN</button>
+            <button id="sum1U" class="red">S1</button>
+            <button id="sum2U" class="red">S2</button>
+            <button id="sum3U" class="red">S3</button>
+            <button id="opiU" class="red">OP</button>
+            <button id="multU" class="red">Ml</button>
+            <button id="sinU" class="red">SN</button>
+            <br></br>
+            <button id="int1D" class="red">IN</button>
+            <button id="int2D" class="red">iN</button>
+            <button id="sum1D" class="red">S1</button>
+            <button id="sum2D" class="red">S2</button>
+            <button id="sum3D" class="red">S3</button>
+            <button id="opiD" class="red">OP</button>
+            <button id="multD" class="red">Ml</button>
+            <button id="sinD" class="red">SN</button>
+            <br></br>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+body{
+ background-color: lightgreen;
+}
+
+#menue{
+ float: right;
+}
+
+#help{
+ border: none;
+ background-color: lightgreen;
+ color: blue;
+}
+
+#load{
+ border: none;
+ background-color: lightgreen;
+ color: blue;
+}
+
+#save{
+ border: none;
+ background-color: lightgreen;
+ color: blue;
+}
+
+#demo{
+ border: none;
+ background-color: lightgreen;
+ color: blue;
+}
+
+
+#oscilloscope{
+ background-color: grey;
+ border-style: solid;
+ border-width: 6px;
+ border-radius: 9px;
+ 
+}
+
+#panel{
+ width: 40vw;
+ height: 40vh;
+ 
+ background-color: green;
+ border-style: solid;
+ border-width: 6px;
+ border-radius: 9px;
+
+ padding: 3vh;
+}
+
+ #kpanel{
+ width: 25vw;
+ height: 30vh;
+ 
+ background-color: green;
+ border-style: solid;
+ border-width: 6px;
+ border-radius: 9px;
+ padding: 3vh;
+
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ 
+}
+
+#potinput{
+ border-style: solid;
+ border-width: 6px;
+ border-radius: 9px;
+ 
+
+}
+
+#restpanel
+{
+ border-style: solid;
+ border-width: 9px;
+ 
+ border-radius: 6px;
+ background-color: orange;
+}
+
+
+#screen{ 
+ width: 30vw;
+ height: 30vh;
+ background-color: lightgreen;
+ 
+}
+
+.ic{
+background-color: grey;
+border-radius: 50%;
+}
+
+.sump10{
+background-color: lightgreen;
+border-radius: 50%;
+}
+
+#gnd{
+ background-color: black;
+ color: white;
+ border-radius: 50%;
+}
+
+#opiSP{
+ background-color: black;
+ color: white;
+ border-radius: 50%;
+}
+
+.multm{
+ background-color: yellow;
+ border-radius: 50%;
+}
+
+.red{
+ background-color: red;
+ border-radius: 50%;
+}
+
+.grey{
+ background-color: grey;
+ border-radius: 50%;
+}
+
+
+.blue{
+ background-color: blue;
+ color: white;
+ border-radius: 50%;
+}
+
+h1{color: black;
+}
+
+#instructions{
+ color: black;
+}
+
+#upperPart{
+ display: flex;
+ clear: both;
+ margin: 3vw;
+ justify-content: space-between;
+}
+
+#lowerPart{
+ margin: 3vw;	
+ display: flex;	
+ clear:  both;
+ justify-content: space-between;
+}
+
+#wholeFront{
+  border-radius: 50%;
+  justify-content: column;	
+}
+
+#kpanel div{
+ width:  90%;
+ height: 30%;	
+}
+
+#kpanel button{
+  width: 20%;
+  height: 90%;	
+}
+
+#panel button{
+ width: 11%;
+ height: 11%;	
+}
