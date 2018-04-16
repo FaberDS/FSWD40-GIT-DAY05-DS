@@ -1,0 +1,119 @@
+/*still to do
+
+
+
+	img log
+
+	*/
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Tajawal', sans-serif;
+}
+#header, #footer{
+	width: 100%;
+	background-color: #DE5254;
+
+} 
+#header {
+	height: 110px;
+}
+#logo{
+	height: inherit;
+	width: 110px;
+/*	background-image: url(img/web-design.png);
+	background-size: 110px 110px;
+	background-position: 0px 0px;*/
+	float: left;
+}
+#headline{
+	float: left;
+	padding: 15px 0 15px 30px;
+	font-weight: bold;
+}
+#headline h1 {
+	font-size: 3em;
+}
+#navbar{
+	margin-top:5px;
+	height:60px;
+	width: 100%;
+	background-color: #868686;
+	box-shadow: 0px 8px 10px grey;
+
+}
+#navbar>ul{
+	width: inherit;
+	height: inherit;
+	list-style: none;
+}
+ul li{
+	display: block;
+	padding: 20px 26px 10px 26px;
+	float: left;
+
+
+}
+li a{
+	text-decoration: none;
+	color:#eee;
+	font-size: 1.5em;
+
+}
+.active{
+	background-color: #421819;
+}
+#content {
+	position: relative;
+	left: 110px;
+	width:80%;
+	margin-top: 20px;
+
+}
+.topic {
+	width:100%;
+	padding: 20px;
+	margin-top:15px;
+	box-shadow: 8px 8px 15px grey;
+}
+.link {
+	width: inherit;
+
+}
+#content h2{
+	font-size: 2em;
+}
+#content a{
+	text-decoration: none;
+	font-size: 1.3em;
+	color: #eee;
+}
+#html-css-js {
+	background-color: #BE9063;
+}
+#shortcuts{
+	text-align: right;
+	background-color: #525B56;
+}
+#validating {
+	background-color: #BE9063;
+}
+#design {
+	text-align: right;
+	background-color: #525B56;
+}
+#special{
+	text-align: left;
+	background-color:#BE9063;
+}
+#general {
+	text-align: right;
+	background-color: #525B56;
+}
+#footer{
+	height:90px;
+	margin-top: 30px;
+	text-align: center;
+	font-size: 1.5em;
+	padding-top:45px;
+}
